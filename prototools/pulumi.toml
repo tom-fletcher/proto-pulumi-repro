@@ -2,9 +2,11 @@ name = "pulumi"
 type = "cli"
 
 [platform.macos]
+archive-prefix = "pulumi"
 download-file = "pulumi-v{version}-darwin-{arch}.tar.gz"
 
 [platform.linux]
+archive-prefix = "pulumi"
 download-file = "pulumi-v{version}-linux-{arch}.tar.gz"
 
 [install]
