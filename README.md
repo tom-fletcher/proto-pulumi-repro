@@ -5,7 +5,7 @@ This is a minimal repro for a possible bug in the `proto` tool.
 This repository contains a simple Ubuntu devcontainer, that installs `proto`
 when it is created.
 
-WHhn running the command:
+When running the command:
 
 ```bash
 proto install pulumi
