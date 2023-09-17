@@ -1,0 +1,4 @@
+pulumi = "3.83.0"
+
+[plugins]
+pulumi = "source:prototools/pulumi.toml"
